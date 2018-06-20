@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		{% load static %}
+		<link rel="icon" href="{% static 'icons/tensorflow.png' %}">
+		<title>Image Recognition</title>
+
+		{% load static %}
+		<link rel="stylesheet" href=" {% static 'bootstrap/css/bootstrap.min.css' %}">
+
+		{% load static %}
+		<link rel="stylesheet" href= "{% static 'css/half-slider.css' %}">
+
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">Image Recognition</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<header>
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+				</ol>
+				<div class="carousel-inner" role="listbox">
+					<!-- Slide One - Set the background image for this slide in the line below -->
+					<div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+						<div class="carousel-caption d-none d-md-block">
+							<h3>Drop image file here</h3>
+							<p>or enter the picture URL</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="py-5">
+			<div class="container">
+				<h1>Half Slider by Start Bootstrap</h1>
+				<p>This is a description for the Image Recognition.</p>
+			</div>
+		</section>
+
+		<footer class="py-5 bg-dark">
+			<div class="container">
+				<p class="m-0 text-center text-white">Image Recognision for <a href="https://www.forth.gr/">FORTH</a>, by <a href="https://www.linkedin.com/in/evankar">@evankar</a>.</p>
+			</div>
+		</footer>
+
+		<!-- JavaScript -->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	</body>
+
+</html>
